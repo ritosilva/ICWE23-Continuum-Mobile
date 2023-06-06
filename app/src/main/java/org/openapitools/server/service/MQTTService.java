@@ -106,7 +106,6 @@ public class MQTTService extends Service {
                 if (!subscribed) {
                     subscribeTopic(getApplicationContext(), "ShoppingCenterReceiversRito");
                     Log.d(TAG, "Subscribed to request");
-mvn 
                     //Change state on MainActivity TextView
                     Intent intentDevice = new Intent();
                     intentDevice.putExtra("state",true);
